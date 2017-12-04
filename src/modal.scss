@@ -1,0 +1,15 @@
+div.modal-content {
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 17px 170px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+  border: 3px dashed black;
+}
+
+div.modal-header {
+  border-bottom: 5px dashed #c0c0c0;
+}
+
+div.modal-footer {
+  border-top: 5px dashed #c0c0c0;
+}

@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha|Patrick+Hand+SC");
+button.btn {
+  align-self: center;
+  transition: all 0.5s ease, background-color 0.1s ease;
+  display: inline;
+  outline: none;
+  border: solid 2px black;
+  border-top-left-radius: 355px 40px;
+  border-top-right-radius: 40px 205px;
+  border-bottom-right-radius: 225px 40px;
+  border-bottom-left-radius: 15px 255px; }
+
+body {
+  font-family: "Neucha", sans-serif; }
+
+input.form-control, select.form-control {
+  border: 2px solid #41403e;
+  border-top-left-radius: 255px 45px;
+  border-top-right-radius: 45px 224px;
+  border-bottom-right-radius: 225px 45px;
+  border-bottom-left-radius: 45px 255px; }
+
+div.modal-content {
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 17px 170px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+  border: 3px dashed black; }
+
+div.modal-header {
+  border-bottom: 5px dashed #c0c0c0; }
+
+div.modal-footer {
+  border-top: 5px dashed #c0c0c0; }
+
+.table-bordered {
+  border: 3px dashed #ddd; }
+
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
+  border: 3px dashed #ddd; }
