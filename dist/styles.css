@@ -13,7 +13,11 @@ button.btn {
 body {
   font-family: "Neucha", sans-serif; }
 
-input.form-control, select.form-control {
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Patrick Hand SC", sans-serif;
+  font-weight: normal; }
+
+input.form-control, select.form-control, textarea.form-control {
   border: 2px solid #41403e;
   border-top-left-radius: 255px 45px;
   border-top-right-radius: 45px 224px;
@@ -43,3 +47,11 @@ div.modal-footer {
 .table-bordered > tfoot > tr > th,
 .table-bordered > tfoot > tr > td {
   border: 3px dashed #ddd; }
+
+.card {
+  border-top-left-radius: 19px 80px;
+  border-top-right-radius: 60px 17px;
+  border-bottom-right-radius: 178px 45px;
+  border-bottom-left-radius: 45px 91px;
+  overflow: hidden;
+  border: 2px solid #0e2231; }
