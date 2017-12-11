@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eidsonator/bootsrap-wireframes.git"
+  },
   "author": "Todd Eidson <todd@eidson.info>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eidsonator/bootsrap-wireframes/issues"
+  },
+  "homepage": "https://github.com/eidsonator/bootsrap-wireframes#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.0",
