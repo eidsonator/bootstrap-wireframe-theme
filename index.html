@@ -12,10 +12,6 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-
-
-
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
             <li class="nav-item">
@@ -26,191 +22,167 @@
             </li>
         </nav>
 
-
-
-
         <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <h3>Components</h3>
-                    <ul>
-                        <li>Buttons</li>
-                        <li>Table
-                            <ul>
-                                <li>table</li>
-                                <li>table-bordered</li>
-                            </ul>
-                        </li>
-                        <li>Form</li>
-                        <li>Card</li>
-                        <li>Dropdown</li>
-                        <li>Modal</li>
-                    </ul>
+            <div class="row justify-content-center">
+                    <div class="col-12 col-md-4">
+                        <h1>Bootstrap Wireframes</h1>
+                    </div>
                 </div>
-                <div class="col-9">
-                        <div class="row">
-                                <div class="col-12">
-                                    <h1>Bootstrap 4 Wireframe Theme</h1>
-                                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-4">
+                    <h2>Buttons</h2>
+                    <button class="btn btn-default">Default</button>
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-success">Success</button>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4">
+                    <h2>Table</h2>
+                    <table class="table table-condensed">
+                            <tr>
+                                <th>Lorem</th>
+                                <th>ipsum</th>
+                                <th>dolor</th>
+                                <th>sit</th>
+                                <th>amet</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>adipisicing</td>
+                                <td>elit</td>
+                                <td>Fuga</td>
+                                <td>suscipit</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>iure</td>
+                                <td>possimus</td>
+                                <td>cupiditate</td>
+                                <td>ullam</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>deleniti</td>
+                                <td>quaerat</td>
+                                <td>Modi</td>
+                                <td>quia</td>
+                            </tr>
+                        </table>
+
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Lorem</th>
+                            <th>ipsum</th>
+                            <th>dolor</th>
+                            <th>sit</th>
+                            <th>amet</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>adipisicing</td>
+                            <td>elit</td>
+                            <td>Fuga</td>
+                            <td>suscipit</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>iure</td>
+                            <td>possimus</td>
+                            <td>cupiditate</td>
+                            <td>ullam</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>deleniti</td>
+                            <td>quaerat</td>
+                            <td>Modi</td>
+                            <td>quia</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-4">
+                    <h2>Form</h2>
+                    <div class="form-group col-12">
+                        <label class="control-label">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-12">
+                        <label class="control-label">Animal</label>
+                        <select class="form-control">
+                            <option value="Dog">Dog</option>
+                            <option value="Cat">Cat</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12">
+                        <label class="control-label">Name</label>
+                        <textarea class="form-control">
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-4">
+                    <h2>Card</h2>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>.card-header</h3>
+                        </div>
+                        <div class="card-body">.card-body</div>
+                        <div class="card-footer">,card-footer</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-4">
+                    <h2>Dropdown</h2>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-4">
+                    <h2>Modal</h2>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Launch demo modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-
-                            <div class="row">
-                                <div class="col-12">
-                                    <h2>Buttons</h2>
-                                    <button class="btn btn-default">Default</button>
-                                    <button class="btn btn-primary">Primary</button>
-                                    <button class="btn btn-success">Success</button>
-                                </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci inventore fugiat, quia nihil, ea voluptatum vel eligendi aspernatur nobis suscipit maxime blanditiis itaque eaque dolores recusandae dignissimos quaerat magnam error.
                             </div>
-
-                            <div class="row">
-                                <div class="col-4">
-                                    <h2>Table</h2>
-                                    <table class="table table-condensed">
-                                            <tr>
-                                                <th>Lorem</th>
-                                                <th>ipsum</th>
-                                                <th>dolor</th>
-                                                <th>sit</th>
-                                                <th>amet</th>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>adipisicing</td>
-                                                <td>elit</td>
-                                                <td>Fuga</td>
-                                                <td>suscipit</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>iure</td>
-                                                <td>possimus</td>
-                                                <td>cupiditate</td>
-                                                <td>ullam</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>deleniti</td>
-                                                <td>quaerat</td>
-                                                <td>Modi</td>
-                                                <td>quia</td>
-                                            </tr>
-                                        </table>
-
-                                    <table class="table table-bordered">
-                                        <tr>
-                                            <th>Lorem</th>
-                                            <th>ipsum</th>
-                                            <th>dolor</th>
-                                            <th>sit</th>
-                                            <th>amet</th>
-                                        </tr>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>adipisicing</td>
-                                            <td>elit</td>
-                                            <td>Fuga</td>
-                                            <td>suscipit</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>iure</td>
-                                            <td>possimus</td>
-                                            <td>cupiditate</td>
-                                            <td>ullam</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>deleniti</td>
-                                            <td>quaerat</td>
-                                            <td>Modi</td>
-                                            <td>quia</td>
-                                        </tr>
-                                    </table>
-                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <h2>Form</h2>
-                                    <div class="form-group col-12">
-                                        <label class="control-label">Name</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="form-group col-12">
-                                        <label class="control-label">Animal</label>
-                                        <select class="form-control">
-                                            <option value="Dog">Dog</option>
-                                            <option value="Cat">Cat</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group col-12">
-                                        <label class="control-label">Name</label>
-                                        <textarea class="form-control">
-                                        </textarea>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <h2>Card</h2>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h3>.card-header</h3>
-                                        </div>
-                                        <div class="card-body">.card-body</div>
-                                        <div class="card-footer">,card-footer</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-4">
-                                    <h2>Dropdown</h2>
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Dropdown
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                            <button class="dropdown-item" type="button">Action</button>
-                                            <button class="dropdown-item" type="button">Another action</button>
-                                            <button class="dropdown-item" type="button">Something else here</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-6">
-                                    <h2>Modal</h2>
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                                        Launch demo modal
-                                    </button>
-
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci inventore fugiat, quia nihil, ea voluptatum vel eligendi aspernatur nobis suscipit maxime blanditiis itaque eaque dolores recusandae dignissimos quaerat magnam error.
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
